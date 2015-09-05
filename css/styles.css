@@ -64,6 +64,9 @@ a {
   text-decoration: none;
 }
 
+div#grid:nth-child(1n) {
+  margin-top: 60px;
+}
 
 
 /* Header
