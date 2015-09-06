@@ -141,6 +141,56 @@ div#firstrow {
   margin-top: 60px;
 }
 
+
+/* About
+---------------------------*/
+div#aboutgrid {
+  text-align: left;
+}
+
+div#bio {
+  background-color: #eb2296;
+  padding: 50px;
+}
+
+div#socialmedia {
+  background-color: #eaea17;
+  padding: 50px;
+}
+
+div#colophon {
+  background-color: #12deef;
+  padding: 50px;
+}
+
+div#aboutgrid p {
+  font-family: Courier;
+  font-size: 1.2em;
+  color: #ffffff;
+  line-height: 1.5em;
+}
+
+div#aboutgrid h1 {
+  font-family: Courier;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+div#aboutgrid a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+div#aboutgrid a:hover {
+  opacity: 0.7;
+}
+
+ul#social {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* Day 1
 ----------------------------*/
 
