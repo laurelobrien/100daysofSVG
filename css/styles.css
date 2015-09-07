@@ -137,10 +137,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-div#firstrow {
-  margin-top: 60px;
-}
-
 
 /* About
 ---------------------------*/
@@ -191,6 +187,8 @@ ul#social {
   padding: 0;
 }
 
+
+
 /* Day 1
 ----------------------------*/
 
@@ -208,6 +206,11 @@ div#day2 {
 ----------------------------*/
 div#day3 {
   background-color: #333;
+}
+
+div#day3 img {
+  width: 61%;
+  padding-top: 30px;
 }
 
 /* Day 4
@@ -255,10 +258,28 @@ div#day9 img {
 /* Day 10
 ----------------------------*/
 div#day10 {
-  background-color: #F5788E;
+  background-color: #324f56;
 }
 
 div#day10 img {
+  width: 95%;
+  padding-top: 100px;
+  margin: 0 5px 0 0;
+}
+
+/* Day 11
+----------------------------*/
+div#day11 {
+  background-color: #F5788E;
+}
+
+div#day11 img {
   height: 80%;
   margin-top: 50px;
+}
+
+/* Day XX
+----------------------------*/
+div#dayXX {
+  background-color: #709EBF;
 }
