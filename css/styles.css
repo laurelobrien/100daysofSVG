@@ -20,6 +20,7 @@ h2.marker {
   border: solid 2px #ffffff;
   border-radius: 50%;
   font-weight: normal;
+  text-align: center;
 }
 
 .halfbloc, .burgerbloc, .verticalbloc, 
@@ -43,7 +44,6 @@ h2.marker {
 .hotdogbloc {
   width: 100%;
   height: 400px;
-  display: block;
   margin: 0;
 }
 
@@ -60,6 +60,10 @@ h2.marker {
   margin: 0;
 }
 
+.filler {
+  background-color: #9B9B9B;
+}
+
 .row {
   display: block;
   width: 100%;
@@ -72,7 +76,7 @@ a {
 }
 
 div#grid:nth-child(1n) {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .centerfix1 {
@@ -91,7 +95,7 @@ header {
   background-color: #e9f3f5;
   position: fixed;
   top: 0;
-  height: 60px;
+  height: 50px;
   width: 100%;
   box-shadow: 0px 7px 10px rgba(0,0,0,0.2);
 }
@@ -193,93 +197,12 @@ ul#social {
 ----------------------------*/
 
 div#day1 {
-  background-color: #eaea17;
+  background-color: #10477C;
+  background-image: linear-gradient(#172343, #446380, #FAF471);
+  background-size: cover;
+  text-align: center;
 }
-
-/* Day 2
-----------------------------*/
-div#day2 {
-  background-color: #eb2296;
-}
-
-/* Day 3
-----------------------------*/
-div#day3 {
-  background-color: #333;
-}
-
-div#day3 img {
-  width: 61%;
-  padding-top: 30px;
-}
-
-/* Day 4
-----------------------------*/
-div#day4 {
-  background-color: #12deef;
-}
-
-/* Day 5
-----------------------------*/
-div#day5 {
-  background-color: #eaea17;
-}
-
-/* Day 6
-----------------------------*/
-div#day6 {
-  background-color: #79CCEB;
-}
-
-/* Day 7
-----------------------------*/
-div#day7 {
-  background-color: #333;
-}
-
-/* Day 8
-----------------------------*/
-div#day8 {
-  background-color: #eb2296;
-}
-
-/* Day 9
-----------------------------*/
-div#day9 {
-  background-color: #EBE508;
-}
-
-div#day9 img {
-  height: 200px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-/* Day 10
-----------------------------*/
-div#day10 {
-  background-color: #324f56;
-}
-
-div#day10 img {
-  width: 95%;
-  padding-top: 100px;
-  margin: 0 5px 0 0;
-}
-
-/* Day 11
-----------------------------*/
-div#day11 {
-  background-color: #F5788E;
-}
-
-div#day11 img {
-  height: 80%;
-  margin-top: 50px;
-}
-
-/* Day XX
-----------------------------*/
-div#dayXX {
-  background-color: #709EBF;
+div#day1 img {
+  width: 93%;
+  margin: 10% auto auto -1%;
 }
