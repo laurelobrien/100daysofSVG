@@ -1,3 +1,6 @@
+/* Fonts
+---------------------------*/
+
 @font-face {
    font-family: 'Hack';
       src: url('../fonts/Hack/eot/hack-regular-webfont.eot');
@@ -8,14 +11,23 @@
    font-style: normal;
 }
 
-@font-face {
-   font-family: 'Hack-Bold';
-      src: url('../fonts/Hack/eot/hack-bold-webfont.eot');
-      src: url('../fonts/Hack/eot/hack-bold-webfont.eot') format('embedded-opentype'),
-           url('../fonts/Hack/woff/hack-bold-webfont.woff') format('woff'),
-           url('../fonts/Hack/ttf/hack-bold-webfont.ttf') format('truetype');
-   font-weight: normal;
-   font-style: normal;
+
+/* Normalizing
+---------------------------*/
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -32,13 +44,13 @@ h1, h2 {
 
 h2.marker {
   font-family: 'Hack';
-  font-size: 1.1em;
+  font-size: 1em;
   width: 1.3em;
   height: 1.3em;
   float: left;
   margin: 1em 0 0 1em;
   padding: 2px;
-  border: solid 2px #ffffff;
+  border: solid 1px #ffffff;
   border-radius: 50%;
   font-weight: normal;
   text-align: center;
@@ -170,36 +182,50 @@ div#aboutgrid {
 }
 
 div#bio {
-  background-color: #eb2296;
-  padding: 50px;
+  background-color: #ffffff;
+  padding: 60px 0 0 70px;
 }
 
 div#socialmedia {
   background-color: #eaea17;
-  padding: 50px;
+  padding: 60px 0 0 50px;
 }
 
 div#colophon {
   background-color: #12deef;
-  padding: 50px;
+  padding: 60px 0 0 50px;
 }
 
 div#aboutgrid p {
-  font-family: 'Hack', Courier, Helvetica, sans-serif;
-  font-size: 1.2em;
-  color: #ffffff;
+  font-family: 'capitolium-news-2', Courier, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #333;
   line-height: 1.5em;
 }
 
-div#aboutgrid h1 {
-  font-family: 'Hack', Courier, Helvetica, sans-serif;
-  text-transform: uppercase;
-  color: #ffffff;
+div.col {
+  width: 35%;
+  display: inline-block;
+  margin: 0 70px 0 0;
+  vertical-align: top;
+}
+
+div#aboutgrid h1, div#aboutgrid h2 {
+  font-family: 'Brandon-Grotesque', Courier, Helvetica, sans-serif;
+  color: #333;
+  text-transform: lowercase;
+  margin: 0;
+  font-size: 3em;
+}
+
+div#aboutgrid h2 {
+  border-bottom: #eaea17 solid 6px;
+  line-height: 1em;
+  display: inline-block;
 }
 
 div#aboutgrid a {
-  color: #ffffff;
-  text-decoration: underline;
+  border-bottom: #12deef solid 2px;
 }
 
 div#aboutgrid a:hover {
@@ -210,6 +236,10 @@ ul#social {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+#aboutgrid span.bold {
+  font-weight: 700;
 }
 
 
