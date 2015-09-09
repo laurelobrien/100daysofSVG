@@ -11,6 +11,7 @@ try{Typekit.load({ async: true });}catch(e){}
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="css/normalize.css" media="screen" rel="stylesheet">
   <link href="css/styles.css" media="screen" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet" media="screen">
 </head>
 
 <body>
@@ -21,15 +22,19 @@ try{Typekit.load({ async: true });}catch(e){}
       <nav>
         <ul>
           <li>
-            <a href="about.html">About</a>
+            <a href="about.html">
+              <span>About</span>
+              <img src="svg/icons/help.svg">
+            </a>
           </li>
-
-          <li>
+          <li id="blog">
             <a href="#">Blog</a>
           </li>
-
           <li>
-            <a href="#">Instagram</a>
+            <a href="#">
+              <span>Instagram</span>
+              <img src="svg/icons/instagram.svg">
+            </a>
           </li>
         </ul>
       </nav>
