@@ -187,59 +187,93 @@ div#bio {
 }
 
 div#socialmedia {
-  background-color: #eaea17;
-  padding: 60px 0 0 50px;
+  background-color: #f4f42c;
+  padding: 60px 60px 0 50px;
 }
 
 div#colophon {
-  background-color: #12deef;
-  padding: 60px 0 0 50px;
+  background-color: #29f2e3;
+  padding: 60px 60px 0 50px;
 }
 
-div#aboutgrid p {
-  font-family: 'capitolium-news-2', Courier, Helvetica, sans-serif;
+div#aboutgrid p, div#aboutgrid ul {
+  font-family: 'Museo-Slab', Courier, Georgia, serif;
   font-size: 1em;
   color: #333;
   line-height: 1.5em;
 }
 
 div.col {
-  width: 35%;
+  width: 38%;
   display: inline-block;
   margin: 0 70px 0 0;
   vertical-align: top;
 }
 
 div#aboutgrid h1, div#aboutgrid h2 {
-  font-family: 'Brandon-Grotesque', Courier, Helvetica, sans-serif;
+  font-family: 'Brandon-Grotesque', Helvetica, sans-serif;
   color: #333;
   text-transform: lowercase;
-  margin: 0;
+  margin: 0 0 37px 0;
   font-size: 3em;
+  line-height: 1em;
 }
 
 div#aboutgrid h2 {
-  border-bottom: #eaea17 solid 6px;
-  line-height: 1em;
+  border-bottom: #333 solid 6px;
+  display: inline-block;
+  margin: 0 0 30px 0;
+}
+
+#bio a {
+  /*background-color: rgba(18, 222, 239, 0.5);*/
+  background-color: #f4f42c;
+}
+
+#bio a:hover {
+  background-color: #ffffff;
+}
+
+#bio #inspiration {
+  margin-top: 20px;
+}
+
+#bio #inspiration ul li {
+  margin: 5px 0 5px 0;
+}
+
+#socialmedia p a, #colophon p a {
+  background-color: #29f2e3;
   display: inline-block;
 }
 
-div#aboutgrid a {
+#socialmedia p a:hover, #colophon p a:hover {
   border-bottom: #12deef solid 2px;
 }
 
-div#aboutgrid a:hover {
-  opacity: 0.7;
-}
-
-ul#social {
+#socialmedia ul {
   list-style: none;
-  margin: 0;
+  display: inline-block;
+  margin-top: 20px;
   padding: 0;
 }
 
-#aboutgrid span.bold {
-  font-weight: 700;
+#socialmedia ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.svgicon {
+  width: 30px;
+  fill: #333;
+}
+
+.svgicon:hover {
+  opacity: 0.7;
+}
+
+#socialmedia ul li#farleft {
+  margin-left: 0;
 }
 
 
