@@ -98,7 +98,7 @@ h2.marker {
 }
 
 .row {
-  display: block;
+  float: left;
   width: 100%;
   margin: 0;
   text-align: center;
@@ -174,7 +174,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-nav li img {
+nav li svg {
   display: none;
 }
 
@@ -266,13 +266,13 @@ div#aboutgrid h2 {
   margin: 10px;
 }
 
-.svgicon {
+#socialmedia ul li svg {
   width: 30px;
   fill: #333;
 }
 
-.svgicon:hover {
-  opacity: 0.7;
+#socialmedia ul li svg:hover {
+  fill: #29f2e3;
 }
 
 #socialmedia ul li#farleft {
@@ -285,12 +285,14 @@ div#aboutgrid h2 {
 ----------------------------*/
 
 div#day1 {
-  background-color: #10477C;
-  background-image: linear-gradient(#172343, #446380, #FAF471);
-  background-size: cover;
-  text-align: center;
+  background-color: #172343;
+  /*background-image: linear-gradient(#172343, #446380, #FAF471);
+  background-size: cover; */
+  text-align: left;
 }
 div#day1 img {
-  width: 93%;
-  margin: 10% auto auto -1%;
+  width: 58%;
+  max-height: 375px;
+  margin: 12px 10% auto 10%;
+  overflow: hidden;
 }

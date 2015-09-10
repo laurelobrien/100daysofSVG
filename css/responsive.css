@@ -32,9 +32,10 @@
     margin: 5px;
   }
   
-  header li img {
+  header li svg {
     display: inline-block;
     height: 1em;
+    fill: #333;
   }
   
   
