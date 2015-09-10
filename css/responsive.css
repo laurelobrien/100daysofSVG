@@ -1,3 +1,5 @@
+/* Still needs re-working for non-float version
+
 @media only screen and (max-width: 800px) {
   .halfbloc {
     display: block;
@@ -17,9 +19,7 @@
     float: none;
   }
   
-  
-/* Header
-----------------------------*/  
+   
   header li span, header li#blog {
     display: none;
   }
@@ -39,8 +39,6 @@
   }
   
   
-/* About
-----------------------------*/
   div#bio, .div#socialmedia, div#colophon {
     display: block;
     float: none;
@@ -68,4 +66,4 @@
     font-size: 0.8em;
     padding: 35px 12% 25px 12%;
   }
-}
+} */
