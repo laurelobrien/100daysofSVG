@@ -67,16 +67,17 @@ h2.marker {
 .hotdogbloc, .megabloc {
   box-sizing: border-box;
   display: inline-block;
+  vertical-align: top;
 }
 
 .halfbloc {
-  width: 32%;
+  width: 32.1%;
   margin: 0 0.5% 1% 0.5%;
 }
 
-.vertbloc {
-  width: 32%;
-  margin: 0;
+.megabloc {
+  width: 99%;
+  margin: 0 0.5% 1% 0.5%;
 }
 
 div.squareratio {
@@ -86,11 +87,11 @@ div.squareratio {
   background: #172343;
 }
 
-div.vertratio {
+div.megaratio {
   width: 100%;
-  padding-bottom: 200%;
+  padding-bottom: 52%;
   position: relative;
-  background: #12deef;
+  background: #e6e6e6;
 }
 
 div.squareratio > div {
@@ -100,37 +101,12 @@ div.squareratio > div {
   box-sizing: border-box;
 }
 
-/*.verticalbloc {
-  height: 800px;
-  width: 33.3333%;
-  margin: 0;
+div.megaratio > div {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  color: #b8b8b8;
+  box-sizing: border-box;
 }
-
-.hotdogbloc {
-  width: 100%;
-  height: 400px;
-  margin: 0;
-}
-
-.burgerbloc {
-  width: 66.6666%;
-  height: 800px;
-  margin: 0;
-}
-
-.megabloc {
-  width: 100%;
-  height: 800px;
-  background-color: #333;
-  margin: 0;
-}
-
-.row {
-  float: left;
-  width: 100%;
-  margin: 0;
-  text-align: center;
-}*/
 
 div#grid:nth-child(1n) {
   margin-top: 50px;
@@ -330,6 +306,12 @@ div#day1 img {
 
 div#day2, div#day3 {
   background-color: #12deef;
+  color: #333;
+  padding: 10%;
+}
+
+div#day4 {
+  background-color: red;
   color: #333;
   padding: 10%;
 }
