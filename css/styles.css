@@ -59,24 +59,23 @@ h2.marker {
 #grid {
   box-sizing: border-box;
   width: 100%;
-  margin: 50px 0 0 0;
-  padding: 0 0.5%;
+  margin: 50px 0.5% 0 0.5%;
 }
 
 .halfbloc, .burgerbloc, .vertbloc, 
 .hotdogbloc, .megabloc {
-  box-sizing: border-box;
   display: inline-block;
   vertical-align: top;
+  box-sizing: border-box;
 }
 
 .halfbloc {
-  width: 32.1%;
+  width: 32%;
   margin: 0 0.5% 1% 0.5%;
 }
 
 .megabloc {
-  width: 99%;
+  width: 98%;
   margin: 0 0.5% 1% 0.5%;
 }
 
