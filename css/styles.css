@@ -56,14 +56,13 @@ h2.marker {
   text-align: center;
 }
 
-#grid {
+.grid {
   box-sizing: border-box;
   width: 100%;
   margin: 50px 0.5% 0 0.5%;
 }
 
-.halfbloc, .burgerbloc, .vertbloc, 
-.hotdogbloc, .megabloc {
+.halfbloc, .megabloc, #biobloc {
   display: inline-block;
   vertical-align: top;
   box-sizing: border-box;
@@ -79,19 +78,33 @@ h2.marker {
   margin: 0 0.5% 1% 0.5%;
 }
 
+#biobloc {
+  width: 64%;
+  margin: 0 0.5% 1% 0.5%;
+}
+
 div.squareratio {
   width: 100%;
   padding-bottom: 100%;
   position: relative;
   z-index: 2;
-  background: #172343;
+  background: #b8b8b8;
 }
 
 div.megaratio {
   width: 100%;
   padding-bottom: 52%;
   position: relative;
-  background: #e6e6e6;
+  z-index: 2;
+  background: #b8b8b8;
+}
+
+div#bioratio {
+  width: 100%;
+  padding-bottom: 65%%;
+  position: relative;
+  z-index: 2;
+  background: #b8b8b8;
 }
 
 div.squareratio > div {
@@ -105,6 +118,13 @@ div.megaratio > div {
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
   color: #b8b8b8;
+  box-sizing: border-box;
+}
+
+div#bioratio > div {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  color: #B8B8B8;
   box-sizing: border-box;
 }
 
@@ -183,23 +203,19 @@ nav li svg {
 
 /* About
 ---------------------------*/
-div#aboutgrid {
-  text-align: left;
-}
-
 div#bio {
-  background-color: #ffffff;
-  padding: 60px 0 0 70px;
+  background-color: #fff;
+  padding: 5%;
 }
 
 div#socialmedia {
   background-color: #f4f42c;
-  padding: 60px 60px 0 50px;
+  padding: 10%;
 }
 
 div#colophon {
   background-color: #29f2e3;
-  padding: 60px 60px 0 50px;
+  padding: 10%;
 }
 
 div#aboutgrid p, div#aboutgrid ul {
@@ -280,6 +296,19 @@ div#aboutgrid h2 {
 
 #socialmedia ul li#farleft {
   margin-left: 0;
+}
+
+#aboutgrid .halfbloc {
+  float: right;
+}
+
+#aboutgrid #colophon-bloc {
+  clear: both;
+  margin-bottom: 0;
+}
+
+#aboutgrid #biobloc {
+  float: left;
 }
 
 
