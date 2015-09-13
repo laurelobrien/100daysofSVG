@@ -1,22 +1,14 @@
-/* Still needs re-working for non-float version
+/* Still needs re-working for non-float version*/
 
 @media only screen and (max-width: 800px) {
   .halfbloc {
-    display: block;
-    float: none;
-    width: 100%;
-    padding: 0;
-  }
-
-  .verticalbloc {
-    display: block;
-    float: none;
-    width: 100%;
+    width: 96%;
+    margin: 0 2% 2% 2%;
   }
 
   .megabloc {
-    display: block;
-    float: none;
+    width: 96%;
+    margin: 0 2% 2% 2%;
   }
   
    
@@ -38,7 +30,7 @@
     fill: #333;
   }
   
-  
+  /*
   div#bio, .div#socialmedia, div#colophon {
     display: block;
     float: none;
