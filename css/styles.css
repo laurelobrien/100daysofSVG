@@ -44,7 +44,7 @@ h1, h2 {
 
 h2.marker {
   font-family: 'Hack';
-  font-size: 1em;
+  font-size: 0.9em;
   width: 1.3em;
   height: 1.3em;
   float: left;
@@ -52,7 +52,7 @@ h2.marker {
   padding: 2px;
   border: solid 1px #ffffff;
   border-radius: 50%;
-  font-weight: normal;
+  font-weight: 100;
   text-align: center;
 }
 
@@ -105,6 +105,22 @@ div.megaratio > div {
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
   color: #b8b8b8;
+  box-sizing: border-box;
+}
+
+.halfbloc-about {
+  width: 32%;
+  height: auto;
+  margin: 0 0 1% 0;
+  float: right;
+  box-sizing: border-box;
+}
+
+.megabloc-about {
+  width: 65%;
+  height: auto;
+  margin: 0;
+  float: left;
   box-sizing: border-box;
 }
 
@@ -184,22 +200,18 @@ nav li svg {
 /* About
 ---------------------------*/
 #bio {
-  width: 64%;
-  height: auto;
   background-color: #fff;
   padding: 3%;
-  float: left;
-  box-sizing: border-box;
 }
 
 #socialmedia {
   background-color: #f4f42c;
-  padding: 10%;
+  padding: 3%;
 }
 
 #colophon {
   background-color: #29f2e3;
-  padding: 10%;
+  padding: 3%;
 }
 
 #aboutgrid p, #aboutgrid ul {
@@ -210,9 +222,9 @@ nav li svg {
 }
 
 .col {
-  width: 38%;
+  width: 40%;
   display: inline-block;
-  margin: 0 70px 0 0;
+  margin: 0 8% 0 0;
   vertical-align: top;
 }
 
@@ -232,12 +244,11 @@ nav li svg {
 }
 
 #bio a {
-  /*background-color: rgba(18, 222, 239, 0.5);*/
   background-color: #f4f42c;
 }
 
 #bio a:hover {
-  background-color: #ffffff;
+  background-color: rgba(244, 244, 44, 0.4);
 }
 
 #bio #inspiration {
@@ -245,7 +256,7 @@ nav li svg {
 }
 
 #bio #inspiration ul li {
-  margin: 5px 0 5px 0;
+  margin: 5px 0;
 }
 
 #socialmedia p a, #colophon p a {
@@ -254,7 +265,7 @@ nav li svg {
 }
 
 #socialmedia p a:hover, #colophon p a:hover {
-  border-bottom: #12deef solid 2px;
+  background-color: #86F2DD;
 }
 
 #socialmedia ul {
@@ -282,11 +293,7 @@ nav li svg {
   margin-left: 0;
 }
 
-#aboutgrid .halfbloc {
-  float: right;
-}
-
-#aboutgrid #colophon-bloc {
+#colophon {
   clear: right;
   margin-bottom: 0;
 }
@@ -304,7 +311,7 @@ div#day1 {
 }
 div#day1 img {
   height: 90%;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 
 /* Day 2
