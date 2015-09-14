@@ -32,22 +32,22 @@
   
 
 
-  #aboutgrid .halfbloc, #aboutgrid #biobloc {
+  #bio, #socialmedia, #colophon {
     width: 96%;
     float: none;
     display: block;
     margin: 0 2% 2% 2%;
+    padding: 6%;
     box-sizing: border-box;
   }
   
   #bio .col {
-    width: 100%;
-    margin: 40px 0 40px 0;
-    padding: 12%;
+    width: 85%;
+    margin: 40px auto;
     display: block;
   }
   
-  div#illus {
+  #illus {
     display: none;
   }
   
