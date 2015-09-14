@@ -11,7 +11,7 @@
     margin: 0 2% 2% 2%;
   }
    
-  header li span, header li#blog {
+  header li span, header li#github {
     display: none;
   }
   
