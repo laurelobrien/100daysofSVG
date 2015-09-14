@@ -48,7 +48,7 @@ h2.marker {
   width: 1.3em;
   height: 1.3em;
   float: left;
-  margin: 1em 0 0 1em;
+  margin: 1.5em 0 0 1.5em;
   padding: 2px;
   border: solid 1px #ffffff;
   border-radius: 50%;
@@ -129,11 +129,11 @@ a {
 }
 
 .centerfix1 {
-  margin-left: -2em;
+  margin-left: -2.5em;
 }
 
 .centerfix2 {
-  margin-left: -3em;
+  margin-left: -3.5em;
 }
 
 
@@ -251,7 +251,7 @@ nav li svg {
   background-color: rgba(244, 244, 44, 0.4);
 }
 
-#bio #inspiration {
+#bio #inspiration, #bio #illus {
   margin-top: 20px;
 }
 
@@ -296,6 +296,16 @@ nav li svg {
 #colophon {
   clear: right;
   margin-bottom: 0;
+}
+
+#illus {
+  text-align: center;
+}
+
+#illus svg {
+  width: 40%;
+  fill: #333;
+  margin-top: 50%;
 }
 
 
