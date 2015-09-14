@@ -212,6 +212,7 @@ nav li svg {
 #colophon {
   background-color: #29f2e3;
   padding: 3%;
+  min-height: 600px;
 }
 
 #aboutgrid p, #aboutgrid ul {
@@ -304,8 +305,7 @@ nav li svg {
 
 #illus img {
   width: 40%;
-  fill: #333;
-  margin-top: 50%;
+  margin-top: 50px;
 }
 
 
