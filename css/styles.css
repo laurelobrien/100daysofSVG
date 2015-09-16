@@ -48,12 +48,17 @@ h2.marker {
   width: 1.3em;
   height: 1.3em;
   float: left;
-  margin: 1.5em 0 0 1.5em;
+  margin: 1em 0 0 1em;
   padding: 2px;
-  border: solid 1px #ffffff;
+  border: solid 2px #ffffff;
   border-radius: 50%;
   font-weight: 100;
   text-align: center;
+}
+
+h2.dark {
+  color: #333;
+  border: solid 2px #333;
 }
 
 .grid {
@@ -312,29 +317,33 @@ nav li svg {
 
 /* Day 1
 ----------------------------*/
-
-div#day1 {
+#day1 {
   background-color: #172343;
   /*background-image: linear-gradient(#172343, #446380, #FAF471);
   background-size: cover; */
   text-align: center;
 }
-div#day1 img {
+#day1 img {
   height: 90%;
   margin-top: 4%;
 }
 
 /* Day 2
 ----------------------------*/
-
-div#day2, div#day3 {
-  background-color: #12deef;
-  color: #333;
-  padding: 10%;
+#day2 {
+  background-color: #f9e48a;
 }
 
-div#day4 {
-  background-color: red;
-  color: #333;
-  padding: 10%;
+#day2 img {
+  width: 40%;
+}
+
+#avopit {
+  float: left;
+  margin: 32% 0 0 0;
+}
+
+#avohole {
+  float: right;
+  margin: 8% 8% 0 0;
 }
