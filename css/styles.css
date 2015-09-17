@@ -338,6 +338,11 @@ nav li svg {
   width: 40%;
 }
 
+h2#two {
+  color: #4d5b27;
+  border-color: #4d5b27;
+}
+
 #avopit {
   float: left;
   margin: 32% 0 0 0;
@@ -354,6 +359,11 @@ nav li svg {
 #day3 {
   background-color: #EAEFEF;
   text-align: center;
+}
+
+h2#three {
+  color: #233e66;
+  border-color: #233e66;
 }
 
 #day3 img {
