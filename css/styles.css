@@ -347,3 +347,17 @@ nav li svg {
   float: right;
   margin: 8% 8% 0 0;
 }
+
+
+/* Day 3
+----------------------------*/
+#day3 {
+  background-color: #EAEFEF;
+  text-align: center;
+}
+
+#day3 img {
+  width: 90%;
+  margin: -1.5% 5% auto 5%;
+}
+
