@@ -47,8 +47,8 @@ h2.marker {
   font-size: 0.9em;
   width: 1.3em;
   height: 1.3em;
-  float: left;
-  margin: 1em 0 0 1em;
+  position: absolute;
+  top: 1em; left: 1em;
   padding: 2px;
   border: solid 2px #ffffff;
   border-radius: 50%;
@@ -324,18 +324,15 @@ nav li svg {
   text-align: center;
 }
 #day1 img {
-  height: 90%;
-  margin-top: 4%;
+  height: 88%;
+  margin: 6% -5% auto auto;
 }
 
 /* Day 2
 ----------------------------*/
 #day2 {
   background-color: #f9e48a;
-}
-
-#day2 img {
-  width: 40%;
+  text-align: center;
 }
 
 h2#two {
@@ -343,14 +340,16 @@ h2#two {
   border-color: #4d5b27;
 }
 
+#day2 img {
+  width: 42%;
+}
+
 #avopit {
-  float: left;
-  margin: 32% 0 0 0;
+  margin: 18% 2% 0 0;
 }
 
 #avohole {
-  float: right;
-  margin: 8% 8% 0 0;
+  margin: 18% 0 0 2%;
 }
 
 
@@ -368,6 +367,43 @@ h2#three {
 
 #day3 img {
   width: 90%;
-  margin: -1.5% 5% auto 5%;
+  margin-top: 7%;
+}
+
+/* Day 4
+----------------------------*/
+#day4 {
+  background-color: #031028;
+  text-align: center;
+}
+
+#day4 img {
+  height: 70%;
+  margin-top: 14.5%;
+}
+
+h2#four {
+  color: #d8a069;
+  border-color: #d8a069;
+}
+
+/* Preview Page
+----------------------------*/
+
+#preview-page header {
+  box-shadow: none;
+}
+
+#preview-page .grid {
+  margin-top: 80px;
+}
+
+#preview-page .halfbloc {
+  width: 45%;
+  margin: 0 2% 2% 2%;
+}
+
+#preview-page h2.marker {
+  display: none;
 }
 
