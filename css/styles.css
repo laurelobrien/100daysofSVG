@@ -371,8 +371,25 @@ h2#three {
   margin: -1.5% 5% auto 5%;
 }
 
+/* Day 4
+----------------------------*/
+#day4 {
+  background-color: #031028;
+  text-align: center;
+}
+
+#day4 img {
+  height: 75%;
+  margin: 9% 0 0 -8%;
+}
+
+h2#four {
+  color: #d8a069;
+  border-color: #d8a069;
+}
+
 /* Preview Page
------------------------------*/
+----------------------------*/
 
 #preview-page header {
   box-shadow: none;
