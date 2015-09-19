@@ -398,20 +398,30 @@ h2#five {
   border-color: #b54f63;
 }
 
-/* Preview Page
+/* Preview Page and 2 column layout:
+preview is the same as the 2 column layout
+but it has no box-shadow on the header, 
+the top row of cells do not touch the header,
+and the day numbers (h2.marker) are not displayed
+for easier screen-shotting to make PNGs.
 ----------------------------*/
-
 #preview-page header {
   box-shadow: none;
 }
 
 #preview-page .grid {
-  margin-top: 80px;
+  margin: 80px 1% 0 1%;
 }
 
-#preview-page .halfbloc {
-  width: 45%;
-  margin: 0 2% 2% 2%;
+#two-column .grid {
+  margin: 50px 1% 0 1%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#preview-page .halfbloc, #two-column .halfbloc {
+  width: 47%;
+  margin: 0 1% 1% 1%;
 }
 
 #preview-page h2.marker {
