@@ -8,8 +8,13 @@
     width: 96%;
     margin: 0 2% 2% 2%;
   }
-   
-  header li span, header li#github {
+  
+  h1 {
+    font-size:;
+  }
+
+  header li span, header li#github,
+  nav li#twobytwolist, nav li#threebythreelist {
     display: none;
   }
   
@@ -18,14 +23,14 @@
   }
   
   nav ul li {
-    margin: 6px;
+    margin: 0 6px 0 6px;
     padding: 1px;
   }
   
-  header li svg {
+  nav li#aboutlist svg, nav li#instagramlist svg {
     display: inline-block;
-    height: 1em;
     fill: #333;
+    height: 1em;
   }
 
   h2.marker {
