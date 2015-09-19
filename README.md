@@ -1,6 +1,8 @@
 #100 Days of SVG
 
-[100 Days of SVG](http://github.com/laurelobrien/100daysofsvg) is part of #the100dayproject; choose something to make and make it for 100 days straight. As an exercise in html/css and illustration, I am making 100 [scalable vector graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) illustrations that can displayed and scaled on the web rather than slapped into place as a static png.
+Visit the project at [100daysofsvg.com](http://github.com/laurelobrien/100daysofsvg) 
+
+100 Days of SVG is part of #the100dayproject; choose something to make and then make it for 100 days. As an exercise in html/css and illustration, I am making 100 [scalable vector graphics](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) illustrations that can be displayed and scaled on the web rather than slapped into place as a static png.
 
 ##Where can I learn more about 100 day projects?
 
