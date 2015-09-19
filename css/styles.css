@@ -190,6 +190,10 @@ nav ul li {
   margin: 15px;
 }
 
+nav ul li#twobytwolist, nav ul li#threebythreelist {
+  margin: 3px;
+}
+
 nav ul li a {
   text-decoration: none;
 }
@@ -198,8 +202,13 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-nav li svg {
+nav li#aboutlist svg, nav li#instagramlist svg {
   display: none;
+}
+
+nav li#twobytwolist svg, nav li#threebythreelist svg {
+  fill: #333;
+  height: 0.9em;
 }
 
 /* About
