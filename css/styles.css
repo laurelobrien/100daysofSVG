@@ -407,6 +407,34 @@ h2#five {
   border-color: #b54f63;
 }
 
+/* Day 6
+----------------------------*/
+#day6 {
+  background-color: #ffffff;
+  text-align: right;
+  box-shadow: inset 0px 0px 0px 2px #12deef;
+}
+
+#day6 img#yeti {
+  height: 87%;
+  margin: 7% 4% 0 0;
+}
+
+#day6 img#alientext {
+  height: 17%;
+  position: absolute;
+  top: 27%;
+  left: 5%;
+}
+
+h2#six {
+  color: #3a3a3a;
+  border-color: #3a3a3a;
+}
+
+
+
+
 /* Preview Page and 2 column layout:
 preview is the same as the 2 column layout
 but it has no box-shadow on the header, 
