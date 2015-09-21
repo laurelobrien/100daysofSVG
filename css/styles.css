@@ -432,6 +432,29 @@ h2#six {
   border-color: #3a3a3a;
 }
 
+/* Day 7
+----------------------------*/
+#day7 {
+  background-color: #F6D588;
+  text-align: center;
+}
+
+h2#seven {
+  color: #d8455e;
+  border-color: #d8455e;
+}
+
+#day7 img#popsicle {
+  height: 80%;
+  margin: 13% auto auto 33%;
+}
+
+#day7 img#popsicle-stripes {
+  position: absolute;
+  height: 65%;
+  width: 40%;
+  bottom: 13%; left: 0;
+}
 
 
 
