@@ -152,7 +152,7 @@ header {
   top: 0;
   height: 50px;
   width: 100%;
-  box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+  box-shadow: 0px 9px 25px rgba(0,0,0,0.2);
   z-index: 3;
 }
 
@@ -412,7 +412,7 @@ h2#five {
 #day6 {
   background-color: #ffffff;
   text-align: right;
-  box-shadow: inset 0px 0px 0px 2px #12deef;
+  box-shadow: inset 0px 0px 0px 7px #12deef;
 }
 
 #day6 img#yeti {
