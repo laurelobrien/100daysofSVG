@@ -473,6 +473,22 @@ h2#eight {
   border-color: #FFFFFF;
 }
 
+/* Day 9
+----------------------------*/
+#day9 {
+  background-color: #efeae4;
+}
+
+#day9 img {
+  width: 97%;
+  margin: -2% 0 0 0;
+}
+
+h2#nine {
+  color: #4d4b84;
+  border-color: #4d4b84
+}
+
 
 
 /* Preview Page and 2 column layout:
