@@ -489,6 +489,21 @@ h2#nine {
   border-color: #4d4b84
 }
 
+/* Day 9
+----------------------------*/
+#day10 {
+  background-color: #edbe8a;
+}
+
+#day10 img {
+  width: 100%;
+}
+
+h2#ten {
+  color: #2d5051;
+  border-color: #2d5051;
+}
+
 
 
 /* Preview Page and 2 column layout:
