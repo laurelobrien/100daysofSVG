@@ -489,7 +489,7 @@ h2#nine {
   border-color: #4d4b84
 }
 
-/* Day 9
+/* Day 10
 ----------------------------*/
 #day10 {
   background-color: #edbe8a;
@@ -502,6 +502,23 @@ h2#nine {
 h2#ten {
   color: #2d5051;
   border-color: #2d5051;
+}
+
+/* Day 11
+----------------------------*/
+#day11 {
+  background-color: #eae1da;
+  text-align: center;
+}
+
+#day11 img {
+  margin: 11% 0 0 0;
+  width: 90%;
+}
+
+h2#eleven {
+  color: #000000;
+  border-color: #000000;
 }
 
 
