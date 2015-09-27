@@ -521,6 +521,22 @@ h2#eleven {
   border-color: #000000;
 }
 
+/* Day 12
+----------------------------*/
+#day12 {
+  background-color: #2b3d3d;
+  text-align: center;
+}
+
+#day12 img {
+  height: 86%;
+  margin: 5% 0 0 -6%;
+}
+
+h2#twelve {
+  color: #b2dcb5;
+  border-color: #b2dcb5;
+}
 
 
 /* Preview Page and 2 column layout:
