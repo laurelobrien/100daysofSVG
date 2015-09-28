@@ -538,6 +538,30 @@ h2#twelve {
   border-color: #b2dcb5;
 }
 
+/* Day 13
+----------------------------*/
+#day13 {
+  background-color: #ffffff;
+}
+
+#day13 #bard {
+  height: 95%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#day13 #meep {
+  height: 15%;
+  margin: 3% 0 0 64%;
+}
+
+h2#thirteen {
+  color: #a8a5a5;
+  border-color: #a8a5a5;
+}
+
+
 
 /* Preview Page and 2 column layout:
 preview is the same as the 2 column layout
