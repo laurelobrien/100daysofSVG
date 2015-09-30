@@ -564,25 +564,43 @@ h2#thirteen {
 /* Day 14
 ----------------------------*/
 #day14 {
-  background-color: #7482A3;
-  background-image: 
-radial-gradient(circle at 100% 150%, 
-  #7482A3 24%, #F2ECE1 25%, #F2ECE1 28%, #7482A3 29%, #7482A3 36%, #F2ECE1 36%, #F2ECE1 40%, transparent 40%, transparent),
-radial-gradient(circle at 0% 150%, 
-  #7482A3 24%, #F2ECE1 25%, #F2ECE1 28%, #7482A3 29%, #7482A3 36%, #F2ECE1 36%, #F2ECE1 40%, transparent 40%, transparent),
-radial-gradient(circle at 50% 100%, 
-  #F2ECE1 10%, #7482A3 11%, #7482A3 23%, #F2ECE1 24%, #F2ECE1 30%, #7482A3 31%, #7482A3 43%, #F2ECE1 44%, #F2ECE1 50%, #7482A3 51%, #7482A3 63%, #F2ECE1 64%, #F2ECE1 71%, transparent 71%, transparent),
-radial-gradient(circle at 100% 52%, 
-  #F2ECE1 5%, #7482A3 6%, #7482A3 15%, #F2ECE1 16%, #F2ECE1 20%, #7482A3 21%, #7482A3 30%, #F2ECE1 31%, #F2ECE1 35%, #7482A3 36%, #7482A3 45%, #F2ECE1 46%, #F2ECE1 49%, transparent 50%, transparent),
-radial-gradient(circle at 0% 52%, 
-  #F2ECE1 5%, #7482A3 6%, #7482A3 15%, #F2ECE1 16%, #F2ECE1 20%, #7482A3 21%, #7482A3 30%, #F2ECE1 31%, #F2ECE1 35%, #7482A3 36%, #7482A3 45%, #F2ECE1 46%, #F2ECE1 49%, transparent 50%, transparent);
-background-size: 160px 80px;
-height: 100%;
+  background-color: #d37044;
+  text-align: center;
 }
 
-#day14 img {
-  height: 80%;
+#day14 #leftfox {
+  height: 90%;
+  position: absolute;
+  left: 5%; bottom: 5%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+  z-index: 3;
 }
+
+#day14 #rightfox {
+  height: 90%;
+  position: absolute;
+  right: 5%; bottom: 5%;
+  z-index: 3;
+}
+
+#day14 #text {
+  height: 65%;
+  margin: 17% -1% 17% auto;
+}
+
+#day14 #mushroom {
+  width: 8%;
+  position: absolute;
+  bottom: 5%; left: 46%;
+  z-index: 2;
+}
+
+
 
 
 /* Preview Page and 2 column layout:
