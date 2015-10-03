@@ -603,7 +603,7 @@ h2#thirteen {
 /* Day 15
 ----------------------------*/
 #day15 {
-  background-color: #000000;
+  background-color: #edbe5f;
   text-align: center;
 }
 
@@ -615,12 +615,7 @@ h2#thirteen {
 #gengar {
   width: 70%;
   position: absolute;
-  right: 15%; bottom: 0;
-}
-
-h2#fifteen {
-  color: #5b4599;
-  border-color: #5b4599;
+  right: 12%; bottom: 0%;
 }
 
 
