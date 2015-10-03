@@ -600,6 +600,29 @@ h2#thirteen {
   z-index: 2;
 }
 
+/* Day 15
+----------------------------*/
+#day15 {
+  background-color: #000000;
+  text-align: center;
+}
+
+#gengar-eyes {
+  height: 100%;
+  width: 100%;
+}
+
+#gengar {
+  width: 70%;
+  position: absolute;
+  right: 15%; bottom: 0;
+}
+
+h2#fifteen {
+  color: #5b4599;
+  border-color: #5b4599;
+}
+
 
 
 
