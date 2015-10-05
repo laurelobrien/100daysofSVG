@@ -618,6 +618,25 @@ h2#thirteen {
   right: 12%; bottom: 0%;
 }
 
+/* Day 16
+----------------------------*/
+#day16 {
+  background-color: #ffffff;
+  text-align: center;
+  border-bottom: solid 5px #ec008c;
+  border-top: solid 5px #ec008c;
+}
+
+#day16 img {
+  height: 85%;
+  margin: 7.5% auto auto auto;
+}
+
+h2#sixteen {
+  color: #ec008c;
+  border-color: #ec008c;
+}
+
 
 
 
