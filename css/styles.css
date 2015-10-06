@@ -647,6 +647,7 @@ h2#sixteen {
   width: 100%;
   position: absolute;
   bottom: 0;
+  z-index: 3;
 }
 
 #day17 div.colourblock {
@@ -655,6 +656,13 @@ h2#sixteen {
   top: 0;
   height: 74%;
   width: 100%;
+  z-index: 2;
+}
+
+h2#seventeen {
+  z-index: 3;
+  color: #d6d6d6;
+  border-color: #d6d6d6;
 }
 
 
