@@ -637,6 +637,14 @@ h2#sixteen {
   border-color: #ec008c;
 }
 
+/* Day 17
+----------------------------*/
+#day17 svg {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
 
 
 
