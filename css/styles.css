@@ -639,13 +639,13 @@ h2#sixteen {
 
 /* Day 17
 ----------------------------*/
-#day17 svg {
+#day17 img {
   width: 100%;
   position: absolute;
   bottom: 0;
 }
 
-/* 0 opacity for all layers with lines */
+/* 0 opacity for all layers with lines 
 #day17 .shapes > * {
   opacity: 0; 
   animation-duration: 0.4s; 
@@ -653,7 +653,7 @@ h2#sixteen {
   animation-timing-function: steps(1);
 }
 
-/* timing out 3 frames and 3 corresponding layers */
+/* timing out 3 frames and 3 corresponding layers 
 @keyframes lines1 { 
   0% { 
     opacity: 1; 
@@ -688,7 +688,7 @@ h2#sixteen {
 }  
 .shapes > :nth-child(3) {  
   animation-name: lines3; 
-}
+} */
 
 
 
