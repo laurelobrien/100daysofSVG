@@ -12,6 +12,7 @@
 }
 
 
+
 /* Normalizing
 ---------------------------*/
 ul {
@@ -230,7 +231,7 @@ nav li#twobytwolist svg, nav li#threebythreelist svg {
 }
 
 #aboutgrid p, #aboutgrid ul {
-  font-family: 'Museo-Slab', Courier, Georgia, serif;
+  font-family: 'Hack', Courier, Georgia, serif;
   font-size: 1em;
   color: #333;
   line-height: 1.5em;
