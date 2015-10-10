@@ -666,6 +666,17 @@ h2#seventeen {
   border-color: #d6d6d6;
 }
 
+/* Day 18
+----------------------------*/
+#day18 {
+  background-color: #0c1226;
+  text-align: center;
+}
+
+#day18 img {
+    height: 90%;
+    margin: 5% auto;
+  }
 
 
 
