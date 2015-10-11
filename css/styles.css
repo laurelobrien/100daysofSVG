@@ -44,15 +44,14 @@ h1, h2 {
 }
 
 h2.marker {
-  font-family: 'Hack';
+  font-family: 'Courier';
   font-size: 0.9em;
   width: 1.3em;
   height: 1.3em;
   position: absolute;
   top: 1em; left: 1em;
   padding: 2px;
-  border: solid 2px #ffffff;
-  border-radius: 50%;
+  border: solid 1px #ffffff;
   font-weight: 100;
   text-align: center;
 }
