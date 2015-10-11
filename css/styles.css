@@ -678,6 +678,19 @@ h2#seventeen {
     margin: 5% auto auto 10%;
   }
 
+/* Day 18
+----------------------------*/
+#day19 {
+  background-image: url('../images/austin_hiking.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+#day19 img {
+  height: 42%;
+  margin-top: 8%;
+}
+
 
 
 
