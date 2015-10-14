@@ -677,7 +677,7 @@ h2#seventeen {
     margin: 5% auto auto 10%;
   }
 
-/* Day 18
+/* Day 19
 ----------------------------*/
 #day19 {
   background-image: url('../images/austin_hiking.jpg');
@@ -688,6 +688,35 @@ h2#seventeen {
 #day19 img {
   height: 37%;
   margin-top: 9%;
+}
+
+/* Day 20
+----------------------------*/
+#day20 {
+  background-color: #79d1c4;
+}
+
+#day20 div.colourblock {
+  width: 100%;
+  height: 11%;
+  position: absolute;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+#day20 img {
+  height: 82%;
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  z-index: 3;
+}
+
+h2#twenty {
+  color: #79d1c4;
+  border-color: #79d1c4;
+  z-index: 3;
 }
 
 
