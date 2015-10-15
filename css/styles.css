@@ -719,6 +719,21 @@ h2#twenty {
   z-index: 3;
 }
 
+/* Day 21
+----------------------------*/
+#day21 {
+  background-color: #ffffff;
+}
+
+#day21 img {
+  height: 100%;
+  width: 100%;
+}
+
+h2#twentyone {
+  display: none;
+}
+
 
 
 
