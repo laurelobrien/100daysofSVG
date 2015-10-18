@@ -735,6 +735,46 @@ h2#twentyone {
   border-color: #b71b1c;
 }
 
+/* Day 22
+----------------------------*/
+#day22 {
+  background-color: #EBDDBC;
+}
+
+#day22 img {
+  height: 90%;
+  position: absolute;
+  bottom: 0; right: 0;
+}
+
+#day22 p {
+  color: #333333;
+  line-height: normal;
+  margin: 10% auto auto 20%;
+  font-family: 'Hack';
+  font-size: 1.1em;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30%; 
+}
+
+/* Typing animation - WIP
+#day22 p#typetext {
+  animation: type 5s steps(50, end); 
+}
+
+@keyframes type{
+  from{width: 0;}
+}
+
+p#typetext span{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+} */
+
 
 
 
