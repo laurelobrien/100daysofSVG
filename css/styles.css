@@ -738,42 +738,51 @@ h2#twentyone {
 /* Day 22
 ----------------------------*/
 #day22 {
-  background-color: #EBDDBC;
+  background-image: linear-gradient(#005064 20%, #f0ba7d);
+  background-size: cover;
 }
 
-#day22 img {
+#day22 img#owl {
   height: 90%;
   position: absolute;
   bottom: 0; right: 0;
 }
 
+#day22 img#trees {
+  height: 40%;
+  position: absolute;
+  left: 1.5%; bottom: 0;
+}
+
 #day22 p {
-  color: #333333;
+  color: #ffffff;
   line-height: normal;
-  margin: 10% auto auto 20%;
-  font-family: 'Hack';
-  font-size: 1.1em;
+  font-family: 'Apercu Mono';
+  font-size: 1.3em;
   white-space: nowrap;
-  overflow: hidden;
   width: 30%; 
 }
 
-/* Typing animation - WIP
-#day22 p#typetext {
-  animation: type 5s steps(50, end); 
+#day22 #text {
+  margin: 10% 0 0 10%;
 }
 
-@keyframes type{
+#day22 p#typetext {
+  overflow: hidden;
+  animation: type 4s steps(50, end) infinite; 
+}
+
+@keyframes type {
   from{width: 0;}
 }
 
-p#typetext span{
+p#typetext span {
   animation: blink 1s infinite;
 }
 
-@keyframes blink{
+@keyframes blink {
   to{opacity: .0;}
-} */
+}
 
 
 
