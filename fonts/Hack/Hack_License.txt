@@ -1,5 +1,0 @@
-'Hack' is a webfont made by and copyrighted to Chris Simpkins 2015, and is available under the Hack Open Font License.
-
-Full version here:
-
-https://github.com/chrissimpkins/Hack/blob/master/LICENSE.md
