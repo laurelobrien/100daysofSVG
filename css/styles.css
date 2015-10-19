@@ -815,6 +815,11 @@ for easier screen-shotting to make PNGs.
   margin: 0 1% 2% 1%;
 }
 
+#preview-page .megabloc, #two-column .megabloc {
+  width: 96%;
+  margin: 0 1% 2% 1%;
+}
+
 #preview-page h2.marker {
   display: none;
 }

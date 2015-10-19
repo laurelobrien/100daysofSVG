@@ -67,6 +67,7 @@
   #day22 p {
     font-size: 0.7em;
     white-space: normal;
+    margin: 20% 0 0 15%;
   }
 
   #day22 p#typetext, #day22 p#question {
