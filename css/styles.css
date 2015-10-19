@@ -723,19 +723,17 @@ h2#twenty {
 /* Day 21
 ----------------------------*/
 #day21 {
-  background-color: #ffffff;
-  border: 2px #b71b1c solid;
+  background-color: #f7e857;
 }
 
 #day21 img {
-  height: 75%;
-  width: 75%;
-  margin: 12.5% 12.5%;
+  height: 100%;
+  width: 100%;
 }
 
 h2#twentyone {
-  color: #b71b1c;
-  border-color: #b71b1c;
+  color: #ec008c;
+  border-color: #ec008c;
 }
 
 /* Day 22
