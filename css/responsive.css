@@ -69,8 +69,8 @@
     white-space: normal;
   }
 
-  #day22 p#typetext {
-    animation: none;
+  #day22 p#typetext, #day22 p#question {
+    display: none;
   }
 
   #day22 br {
