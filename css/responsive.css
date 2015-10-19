@@ -60,5 +60,21 @@
   #aboutgrid h1, #aboutgrid h2 {
     font-size: 2em;
   }
+
+  /* Day 22
+  ------------------------------*/
+
+  #day22 p {
+    font-size: 0.7em;
+    white-space: normal;
+  }
+
+  #day22 p#typetext {
+    animation: none;
+  }
+
+  #day22 br {
+    display: none;
+  }
   
 } 
