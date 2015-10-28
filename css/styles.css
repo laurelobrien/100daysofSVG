@@ -785,6 +785,13 @@ p#typetext span {
   to{opacity: .0;}
 }
 
+/* Day 23
+----------------------------*/
+#day23 img {
+  width: 100%;
+  height: 100%;
+}
+
 
 
 
