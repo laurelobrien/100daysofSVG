@@ -857,6 +857,17 @@ h2#twentyfour {
   display: none;
 }
 
+/* Day 25
+----------------------------*/
+#day25 {
+  background-color: #ffffff;
+}
+
+#day25 img {
+  height: 100%;
+  width: 100%;
+}
+
 
 
 
