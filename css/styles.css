@@ -154,6 +154,12 @@ a {
 }
 
 
+/* Filler Blocks #fillerBlock
+----------------------------*/
+#fillerBlock {
+  background-color: #d1d1d1;
+}
+
 
 /* Header
 ---------------------------*/
